@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info>
+  <id>nextgantt</id>
+  <name>NextGantt</name>
+  <summary>Simple Gantt chart app for Nextcloud</summary>
+  <description>Provides a lightweight Gantt timeline view for planning tasks inside Nextcloud.</description>
+  <version>0.1.0</version>
+  <licence>agpl</licence>
+  <author mail="" homepage="">NextGantt Team</author>
+  <namespace>NextGantt</namespace>
+  <category>productivity</category>
+  <types>
+    <filesystem/>
+  </types>
+  <dependencies>
+    <nextcloud min-version="28" max-version="31"/>
+  </dependencies>
+  <navigation>
+    <name>NextGantt</name>
+    <route>nextgantt.page.index</route>
+    <icon>app.svg</icon>
+    <order>40</order>
+  </navigation>
+</info>
